@@ -1,0 +1,311 @@
+# EESchema Netlist Version 1.1 created  1/25/2011 7:56:23 PM
+(
+ ( /4D3F7107 $noname  U1 RBBB {Lib=RBBB}
+  (    1 N-000003 )
+  (    2 GND )
+  (    3 N-000008 )
+  (    4 N-000004 )
+  (    5 N-000016 )
+  (    6 N-000017 )
+  (    7 N-000018 )
+  (    8 N-000019 )
+  (    9 N-000008 )
+  (   10 N-000020 )
+  (   11 N-000022 )
+  (   12 N-000023 )
+  (   13 N-000025 )
+  (   14 N-000005 )
+  (   15 N-000006 )
+  (   16 N-000007 )
+  (   17 N-000001 )
+  (   18 N-000002 )
+  (   19 GND )
+  (   20 N-000021 )
+  (   21 GND )
+  (   22 N-000024 )
+  (   23 N-000026 )
+  (   24 N-000027 )
+  (   25 N-000028 )
+  (   26 N-000029 )
+  (   27 N-000030 )
+  (   28 GND )
+  (   29 N-000008 )
+ )
+ ( /4B95370D DIL28  IC1 ATMEG328PU {Lib=ATMEGA8-P}
+  (    1 N-000003 )
+  (    2 N-000004 )
+  (    3 N-000016 )
+  (    4 N-000017 )
+  (    5 N-000018 )
+  (    6 N-000019 )
+  (    7 N-000008 )
+  (    8 GND )
+  (    9 N-000014 )
+  (   10 N-000015 )
+  (   11 N-000020 )
+  (   12 N-000022 )
+  (   13 N-000023 )
+  (   14 N-000025 )
+  (   15 N-000005 )
+  (   16 N-000006 )
+  (   17 N-000007 )
+  (   18 N-000001 )
+  (   19 N-000002 )
+  (   20 N-000008 )
+  (   21 N-000021 )
+  (   22 GND )
+  (   23 N-000024 )
+  (   24 N-000026 )
+  (   25 N-000027 )
+  (   26 N-000028 )
+  (   27 N-000029 )
+  (   28 N-000030 )
+ )
+ ( /4D388496 $noname  P8 CONN_2 {Lib=CONN_2}
+  (    1 N-000013 )
+  (    2 GND )
+ )
+ ( /4B9550D3 $noname  RES1 16MHz {Lib=RESONATOR}
+  (    1 N-000014 )
+  (    2 GND )
+  (    3 N-000015 )
+ )
+ ( /4BABF39F $noname  VR1 VR {Lib=CONN_3}
+  (    1 N-000008 )
+  (    2 GND )
+  (    3 N-000013 )
+ )
+ ( /4B958DDF $noname  P6 CONN_2 {Lib=CONN_2}
+  (    1 N-000008 )
+  (    2 GND )
+ )
+ ( /4B9589F9 $noname  JACK1 PWR_JACK {Lib=JACK_2P}
+  (    1 N-000013 )
+  (    2 N-000013 )
+  (    3 GND )
+ )
+ ( /4B95892A $noname  D1 1N4003 {Lib=DIODE}
+  (    1 N-000008 )
+  (    2 GND )
+ )
+ ( /4B958904 $noname  LED1 3mm {Lib=LED}
+  (    1 N-000008 )
+  (    2 N-000012 )
+ )
+ ( /4B9588D0 $noname  C1 47uF {Lib=CP1}
+  (    1 N-000013 )
+  (    2 GND )
+ )
+ ( /4B957F81 $noname  R2 10k {Lib=R}
+  (    1 N-000003 )
+  (    2 N-000008 )
+ )
+ ( /4B957AD9 $noname  SW1 DPST {Lib=DPST}
+  (    1 N-000003 )
+  (    2 GND )
+  (    3 N-000003 )
+  (    4 GND )
+ )
+ ( /4B957A15 $noname  C3 0.1uF {Lib=C}
+  (    1 N-000008 )
+  (    2 GND )
+ )
+ ( /4B9579FC $noname  C4 0.1uF {Lib=C}
+  (    1 N-000011 )
+  (    2 N-000003 )
+ )
+ ( /4B95798E $noname  P1 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 ? )
+  (    3 N-000008 )
+  (    4 N-000004 )
+  (    5 N-000016 )
+  (    6 N-000011 )
+ )
+ ( /4B9539B9 $noname  R1 1k {Lib=R}
+  (    1 N-000012 )
+  (    2 GND )
+ )
+ ( /4B9539A6 $noname  C2 47uF {Lib=CP1}
+  (    1 N-000008 )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component IC1
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component LED1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ IC1 18
+ U1 17
+Net 2 "" ""
+ IC1 19
+ U1 18
+Net 3 "" ""
+ C4 2
+ SW1 3
+ U1 1
+ IC1 1
+ SW1 1
+ R2 1
+Net 4 "" ""
+ IC1 2
+ P1 4
+ U1 4
+Net 5 "" ""
+ U1 14
+ IC1 15
+Net 6 "" ""
+ IC1 16
+ U1 15
+Net 7 "" ""
+ IC1 17
+ U1 16
+Net 8 "" ""
+ P1 3
+ C2 1
+ VR1 1
+ P6 1
+ U1 29
+ C3 1
+ U1 3
+ U1 9
+ LED1 1
+ D1 1
+ R2 2
+ IC1 20
+ IC1 7
+Net 9 "GND" "GND"
+ D1 2
+ U1 19
+ U1 28
+ JACK1 3
+ U1 2
+ IC1 22
+ IC1 8
+ U1 21
+ P8 2
+ C1 2
+ C2 2
+ R1 2
+ RES1 2
+ P1 1
+ VR1 2
+ C3 2
+ P6 2
+ SW1 2
+ SW1 4
+Net 11 "" ""
+ P1 6
+ C4 1
+Net 12 "" ""
+ R1 1
+ LED1 2
+Net 13 "" ""
+ C1 1
+ JACK1 2
+ JACK1 1
+ VR1 3
+ P8 1
+Net 14 "" ""
+ RES1 1
+ IC1 9
+Net 15 "" ""
+ RES1 3
+ IC1 10
+Net 16 "" ""
+ IC1 3
+ P1 5
+ U1 5
+Net 17 "" ""
+ IC1 4
+ U1 6
+Net 18 "" ""
+ IC1 5
+ U1 7
+Net 19 "" ""
+ U1 8
+ IC1 6
+Net 20 "" ""
+ U1 10
+ IC1 11
+Net 21 "" ""
+ IC1 21
+ U1 20
+Net 22 "" ""
+ IC1 12
+ U1 11
+Net 23 "" ""
+ IC1 13
+ U1 12
+Net 24 "" ""
+ U1 22
+ IC1 23
+Net 25 "" ""
+ IC1 14
+ U1 13
+Net 26 "" ""
+ U1 23
+ IC1 24
+Net 27 "" ""
+ U1 24
+ IC1 25
+Net 28 "" ""
+ IC1 26
+ U1 25
+Net 29 "" ""
+ IC1 27
+ U1 26
+Net 30 "" ""
+ U1 27
+ IC1 28
+}
+#End
